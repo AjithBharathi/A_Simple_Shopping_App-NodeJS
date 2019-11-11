@@ -34,13 +34,13 @@ app.use(bodyparser.json());
 
 app.use('/api', route);
 
-// deploy
+// *** deploy
 // app.use(express.static(path.join(__dirname, 'public')));
 
 // app.get('*', (req, res)=>{
 //     res.sendFile(path.join(__dirname, 'public/index.html'));
 // })
-// deploy
+// deploy ***
 
 app.get('/',(req, res)=>{
     res.send('some changes are done in meannn');
